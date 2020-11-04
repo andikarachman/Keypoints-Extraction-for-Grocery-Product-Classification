@@ -1,8 +1,6 @@
-# Keypoints Extraction for Product Classification
+# Keypoints Extraction for Grocery Product Classification
 
-<div style="text-align:center; margin:20px" ><img src="keypoints.jpg"/></div>
-
-This software is used to extract keypoints from products that will be used for performing product classification. Several keypoint detectors (i.e. SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT) and descriptors (i.e. BRIEF, ORB, FREAK, AKAZE, SIFT, BRISK) can be used for extracting and describing keypoints. 
+This software is used to extract keypoints from products that will be used for performing product classification. Several keypoint detectors (i.e. SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT) and descriptors (i.e. BRIEF, ORB, FREAK, AKAZE, SIFT, BRISK) can be used for extracting and describing keypoints. The keypoints extracted and described using this software is the requirements for performing classification of grocery products in [this repo](https://github.com/andikarachman/Non-Deep-Learning-Grocery-Product-Classification).  
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
